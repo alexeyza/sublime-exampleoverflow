@@ -1,0 +1,10 @@
+[
+  {
+    "caption": "ExampleOverflow: Search Selection",
+    "command": "exampleoverflow_search_selection"
+  },
+  {
+    "caption": "ExampleOverflow: Search from Input",
+    "command": "exampleoverflow_search_from_input"
+  }
+]

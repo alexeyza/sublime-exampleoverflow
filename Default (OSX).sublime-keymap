@@ -1,0 +1,4 @@
+[
+    { "keys": ["super+o"], "command": "exampleoverflow_search_selection" },
+    { "keys": ["super+shift+o"], "command": "exampleoverflow_search_from_input" }
+]
