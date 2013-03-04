@@ -10,7 +10,7 @@ This plugin uses the [SE API package](https://github.com/stared/se-api-py)
 ## Install
 The suggested method is to use the [Sublime Package Manager](http://wbond.net/sublime_packages/package_control).
 
-## Usage
+## Use
 Use one of the following key bindings
 
 - 'Ctrl + o' : to use the selected text (or code) as the search query
@@ -20,6 +20,9 @@ Use one of the following key bindings
 The plugin will open a quick panel with the top results (title and tags from StackOverflow). Upon choosing one of the results a new buffer will open with a pasted code snippet. 
 
 Alternatively it is possible to use the Command Palette (Ctrl+Shift+P) instead of the key bindings.
+
+## Beta
+This plugin is in early development and may not work properly (or at all). It's design is still under development (I'm open to suggestions).
 
 ---
 Copyright (C) 2013 Alexey Zagalsky
