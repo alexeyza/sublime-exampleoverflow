@@ -62,11 +62,10 @@ class ExampleoverflowSearchSelectionCommand(sublime_plugin.TextCommand):
             return
         question_id = self.so_results[picked][3]
         chosen = self.so_results[picked]
-        match = re.search(ur'<pre><code>(.+)</code></pre>',self.so_results[picked][2],re.DOTALL)
+        match = re.findall(ur'<pre><code>(.+?)</code></pre>',self.so_results[picked][2],re.DOTALL)
         code_snippet = ''
-        if not match==None:
-            question_url = '## Code snippet source:\nhttp://stackoverflow.com/questions/'+str(question_id)+'\n\n'
-            code_snippet = question_url+match.group(1)
+        question_url = '## Code snippet source:\n## http://stackoverflow.com/questions/'+str(question_id)+'\n\n'
+        code_snippet = question_url+' '.join(match)
         self.print_output(code_snippet)
 
     def show_quick_panel(self, messages, window):
@@ -120,11 +119,10 @@ class ExampleoverflowSearchFromInputCommand(sublime_plugin.WindowCommand):
             return
         question_id = self.so_results[picked][3]
         chosen = self.so_results[picked]
-        match = re.search(ur'<pre><code>(.+)</code></pre>',self.so_results[picked][2],re.DOTALL)
+        match = re.findall(ur'<pre><code>(.+?)</code></pre>',self.so_results[picked][2],re.DOTALL)
         code_snippet = ''
-        if not match==None:
-            question_url = '## Code snippet source:\nhttp://stackoverflow.com/questions/'+str(question_id)+'\n\n'
-            code_snippet = question_url+match.group(1)
+        question_url = '## Code snippet source:\n## http://stackoverflow.com/questions/'+str(question_id)+'\n\n'
+        code_snippet = question_url+' '.join(match)
         self.print_output(code_snippet)
 
     def show_quick_panel(self, messages, window):
