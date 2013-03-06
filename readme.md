@@ -14,7 +14,7 @@ The suggested method is to use the [Sublime Package Manager](http://wbond.net/su
 Use one of the following key bindings
 
 - 'Ctrl + o' : to use the selected text (or code) as the search query
-- 'Shift + Ctrl' + o : to open a search input panel at the bottom
+- 'Shift + Ctrl + o' : to open a search input panel at the bottom
 - use 'Super' instead of 'Ctrl' for OS X
 
 The plugin will open a quick panel with the top results (title and tags from StackOverflow). Upon choosing one of the results a new buffer will open with a pasted code snippet. 
