@@ -22,7 +22,7 @@ The plugin will open a quick panel with the top results (title and tags from Sta
 Alternatively it is possible to use the Command Palette (Ctrl+Shift+P) instead of the key bindings.
 
 ## Beta
-This plugin is in early development and may not work properly (or at all). It's design is still under development (I'm open to suggestions).
+This plugin is in early development and may not work properly (or at all). Its design is still under development (I'm open to suggestions).
 
 ---
 Copyright (C) 2013 Alexey Zagalsky
