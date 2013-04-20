@@ -27,6 +27,7 @@ def get_comment_line_character(syntax):
     return {
         'Java': '//',
         'Python': '##',
+        'Ruby': '#',
         'JavaScript': '//',
     }.get(syntax, '//')
 
