@@ -17,7 +17,7 @@ Use one of the following key bindings
 - 'Shift + Ctrl + o' : to open a search input panel at the bottom
 - use 'Super' instead of 'Ctrl' for OS X
 
-The plugin will open a quick panel with the top results (title and tags from StackOverflow). Upon choosing one of the results a new buffer will open with a pasted code snippet. 
+The plugin will open a quick panel with the top results (title and tags from StackOverflow). Upon choosing one of the results a new buffer will open with a pasted code snippet.
 
 Alternatively it is possible to use the Command Palette (Ctrl+Shift+P) instead of the key bindings.
 
