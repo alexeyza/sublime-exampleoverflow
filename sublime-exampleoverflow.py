@@ -24,6 +24,9 @@ def create_results(self, data):
 
 
 def get_comment_line_character(syntax):
+    match = re.search(r'Packages/[\w\s]+/([\w\s]+)[.]+tmLanguage', syntax)
+    if not match is None:
+        syntax = match.group(1)
     return {
         'Java': '//',
         'Python': '##',
